@@ -17,7 +17,7 @@ KEY = "SNHJoH4uu9iDfgfw"
 #CM:移动 CU:联通 CT:电信  AB:境外 DEF:默认
 #修改需要更改的dnspod域名和子域名
 DOMAINS = {
-    "webcdnjs.top": {"cf": ["CM","CU","CT"]}
+    "pupumh.asia": {"cf": ["CM","CU","CT"]}
 	}
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
@@ -42,8 +42,8 @@ TYPE = 'v4'
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
 #阿里云后台获取 https://help.aliyun.com/document_detail/53045.html?spm=a2c4g.11186623.2.11.2c6a2fbdh13O53  注意需要添加DNS控制权限 AliyunDNSFullAccess
 #华为云后台获取 https://support.huaweicloud.com/devg-apisign/api-sign-provide-aksk.html
-SECRETID = 'AKIDnZEfstneMn6DcnjdZQ5YqvndKqNnGXeX'
-SECRETKEY = 'ly6zjHbgjeLp56yc1BAtY3LRL3ZsyreN'
+SECRETID = 'LTAI5tP7yK1NdZpdhtsQr3nU'
+SECRETKEY = 'uQRPjqWG0eAIvTZfk4zA4soOyKmIRf'
 
 log_cf2dns = Logger('cf2dns.log', level='debug') 
 urllib3.disable_warnings()
