@@ -12,14 +12,13 @@ from log import Logger
 import traceback
 
 #可以从https://shop.hostmonit.com获取
-KEY = "o1zrmHAF"
+KEY = "SNHJoH4uu9iDfgfw"
 
 #CM:移动 CU:联通 CT:电信  AB:境外 DEF:默认
 #修改需要更改的dnspod域名和子域名
 DOMAINS = {
-    "hostxxnit.com": {"@": ["CM","CU","CT"], "shop": ["CM", "CU", "CT"], "stock": ["CM","CU","CT"]},
-    "xxxx.me": {"@": ["CM","CU","CT"], "vv": ["CM","CU","CT"]}
-}
+    "webcdnjs.top": {"cf": ["CM","CU","CT"]}
+	}
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
 AFFECT_NUM = 2
@@ -43,8 +42,8 @@ TYPE = 'v4'
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
 #阿里云后台获取 https://help.aliyun.com/document_detail/53045.html?spm=a2c4g.11186623.2.11.2c6a2fbdh13O53  注意需要添加DNS控制权限 AliyunDNSFullAccess
 #华为云后台获取 https://support.huaweicloud.com/devg-apisign/api-sign-provide-aksk.html
-SECRETID = 'WTTCWxxxxxxxxx84O0V'
-SECRETKEY = 'GXkG6D4X1Nxxxxxxxxxxxxxxxxxxxxx4lRg6lT'
+SECRETID = 'AKIDnZEfstneMn6DcnjdZQ5YqvndKqNnGXeX'
+SECRETKEY = 'ly6zjHbgjeLp56yc1BAtY3LRL3ZsyreN'
 
 log_cf2dns = Logger('cf2dns.log', level='debug') 
 urllib3.disable_warnings()
