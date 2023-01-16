@@ -12,7 +12,7 @@ from log import Logger
 import traceback
 
 #可以从https://shop.hostmonit.com获取
-KEY = "SNHJoH4uu9iDfgfw"
+KEY = "hkW52ChxoOKjgfw"
 
 #CM:移动 CU:联通 CT:电信  AB:境外 DEF:默认
 #修改需要更改的dnspod域名和子域名
